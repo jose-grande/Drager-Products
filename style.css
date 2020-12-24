@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  width: 100%;
+  height: auto;
+  background: #ecb912;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_image {
+  width: 10%;
+  margin: 10px;
+}
+.ul_container {
+  display: flex;
+  list-style: none;
+}
+.ul_container li {
+  padding-right: 1.5rem;
+}
+.ul_container li a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
