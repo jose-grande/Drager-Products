@@ -5,18 +5,26 @@
 }
 html {
   font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
 }
 header {
   width: 100%;
-  height: auto;
-  background: #ecb912;
+  height: 80px;
+  background: rgb(32, 36, 0);
+  background: linear-gradient(
+    289deg,
+    rgba(32, 36, 0, 1) 0%,
+    rgba(121, 9, 9, 1) 25%,
+    rgba(0, 212, 255, 1) 100%
+  );
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .logo_image {
-  width: 10%;
-  margin: 10px;
+  width: 20%;
+  margin-left: 20px;
+  align-items: center;
 }
 .ul_container {
   display: flex;
@@ -27,7 +35,39 @@ header {
 }
 .ul_container li a {
   text-decoration: none;
-  font-size: 2rem;
-  color: whitesmoke;
-  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: #fbfcfc;
+  font-weight: bold;
+}
+.input_container {
+  width: 280px;
+  height: 40px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  background-color: white;
+}
+.input_container input {
+  width: 240px;
+  border: none;
+  outline: none;
+  border-radius: 0 100px 100px 0;
+}
+.input_container .first_icon {
+  background-image: url("https://cdn0.iconfinder.com/data/icons/black-friday-glyph-5/32/Black_Friday_Search_Magnifier_Glyph-512.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  margin: 0 10px 0 5px;
+}
+.input_container .search_icon {
+  background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 26px;
+  margin: 0 5px 0 0;
 }
