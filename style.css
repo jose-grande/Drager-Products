@@ -87,7 +87,7 @@ header {
   width: 26px;
   margin: 0 5px 0 0;
 }
-@media (max-width: 779px) {
+@media (max-width: 995px) {
   .ul_container {
     display: none;
   }
